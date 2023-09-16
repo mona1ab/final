@@ -1,0 +1,48 @@
+body {
+    background-color: #f4f4f4; /*background color of the page*/
+}
+h1 {
+    background-color: #333;/* background color for h1*/
+    color: #fff; /*text color for h1*/
+    text-align: center;/* Center align the text */
+}
+.list-items{
+    border: 1px solid #ccc; /*border type color*/
+    padding: 20px;/* padding for spacing */ 
+    text-align: center;/* Center align the text */
+}
+ul {
+    list-style-type: none;/*list style*/
+}
+li {
+    margin: 10px 0px;}/*add space*/
+    #img{
+        /*img size*/
+        width: 380px;
+        height: 230px;
+    }
+.car-name{
+    font-weight: bold; /*text weight*/
+    font-size: larger;/* text size*/
+    }
+    .form{
+        max-width: 200px;
+        border: 1px solid #ccc;/*type and color of the border*/
+        padding: 20px; /*to add space*/
+        text-align: center;/* Center align the text */
+    }
+    .label{
+        text-align: center;/* Center align the text */
+    }
+.footer{
+    
+        background-color: #333; /* Background color for the footer */
+        color: #fff; /* text color */
+        text-align: center; /* Center align the text */
+        padding: 10px; /* padding for spacing */ 
+    
+}
+.footer a {
+    color:white; /*text color*/
+    margin: 0 10px;/*add space*/
+}

@@ -1,0 +1,20 @@
+#parag{
+    font-size: 22px;/*text size*/
+    font-weight:bold;/*text weight*/
+    font-family: Playfair Display,Garamond,Baskerville,Hiragino Mincho ProN W6,Yu Mincho Demibold,serif/*text font*/
+}
+  .showcase, .biography {
+    color: #555;/*text color*/
+  }
+  .showcase h2, .biography h2 {
+    color: #333;/*header color*/
+  }
+
+  
+ 
+  
+  
+  
+  
+  
+  

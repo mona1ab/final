@@ -1,0 +1,31 @@
+
+.navbar   {
+    display: flex;/*FLEX CONTAINER*/
+    flex-direction: row;/*row direction*/
+    gap:90px;/*add space*/
+    align-items: center;/*text at the center*/
+    background-color:#0a0a0a ;/*navbar background color*/
+    font-size: 25px;/*text size*/
+}
+#items {
+    display: flex;/*FLEX CONTAINER*/
+    gap: 20px;/*add space*/
+    list-style:none;/*list style*/
+}
+#items a {
+    text-decoration: none;/*link line*/
+    color: wheat; /*text color*/
+    font-weight: bold;/*text weight*/
+}
+
+#items a:hover {
+    color: lightskyblue; /*hover color*/
+    transition: all of 0.3s ease-in-out;
+}
+#logo{
+    /*logo img size*/
+    width: 100px;
+    height: 90px;
+} 
+  
+        

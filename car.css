@@ -1,0 +1,68 @@
+
+    h1,h2{
+        background-color: #333;/*background color for h1,h2*/
+        color: #fff;/*color text*/
+        text-align: center;/* Center align the text */
+    }
+    h3{
+      font-style: italic ;/*text style for h3*/
+      font-weight: bold;/*weight for h3*/
+    }
+    dd{
+      font-style: italic ;/*text style for h3*/
+      font-weight: bold;/*weight for h3*/
+    }
+    .car-cards{
+        display: flex;/*flex container*/
+        justify-content: space-between;/*space between the card*/
+    }
+    .ex-cards{
+      border: 1px black solid ;/*type and color of the border*/
+      padding:20px/*to add space*/
+    }
+    .ex-cards img{
+      /* img size*/
+      width: 360px;
+      height: 220px;
+    }
+    .best-selling-cars {
+        display: flex;/*flex container*/
+        flex-direction:column;/*column direction*/
+        justify-content: space-between;/*space between the card*/
+        gap:10px;/*add space*/
+      }
+      
+      .car-card {
+        border: 1px solid #ccc;/*type and color of the border*/
+        padding: 20px; /*to add space*/
+        text-align: center;/* Center align the text */
+        display: flex;/*flex container*/
+        flex-direction: column;/*column direction*/
+        }
+      
+      .car-card img {
+        /* img size*/
+        width: 200Px;
+        height: 150px;
+        /*bottom,left space*/
+        margin-bottom: 10px;
+        margin-left: 25px;
+        
+      }
+      .bmw-series-table table {
+        width: 1000px;/* table size*/
+      }
+      
+      .bmw-series-table th, .bmw-series-table td {
+        border: 1px solid #ccc;/*type and color of the border*/
+        padding: 10px;/*to add space*/
+        text-align: left;/*text start from the left*/
+      }
+      
+      .bmw-series-table th {
+        background-color: #f0f0f0;/*background color for table header*/
+      }
+      #img{
+        margin-left: 280px;/*left space*/
+        width: 350px;/*img size*/
+      }
